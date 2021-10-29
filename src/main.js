@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.css'
 
 import './assets/css/index.css'
 import './assets/css/styles.css'
-import './assets/js/heart.js'
+// import './assets/js/heart.js'
 
 import dayjs from 'dayjs'
 
