@@ -7,12 +7,13 @@ import 'font-awesome/css/font-awesome.css'
 
 import './assets/css/index.css'
 import './assets/css/styles.css'
-import { heart } from '../assets/js/heart.js'
+import { heart } from './assets/js/heart.js'
 
 import dayjs from 'dayjs'
 
 import DefaultLayout from '~/layouts/Default.vue'
 import ContentBox from '~/layouts/ContentBox.vue'
+
 if (window && document) {
  heart(window, document)
 }
