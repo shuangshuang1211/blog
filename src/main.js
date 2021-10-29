@@ -14,12 +14,16 @@ import dayjs from 'dayjs'
 import DefaultLayout from '~/layouts/Default.vue'
 import ContentBox from '~/layouts/ContentBox.vue'
 
-if (window && document) {
- heart(window, document)
-}
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
+  Vue.mixin({
+    data () {
+      return {
+        heart
+      }
+    }
+  })
   Vue.component('Layout', DefaultLayout)
   Vue.component('ContentBox', ContentBox)
   Vue.filter('date', (value, format = 'YYYY-MM-DD HH:mm:ss') => {
