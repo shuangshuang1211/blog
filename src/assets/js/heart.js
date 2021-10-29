@@ -1,5 +1,8 @@
 //鼠标点击出现爱心特效
 (function(window,document,undefined){
+  if (typeof window === 'undefined') {
+    global.window = {};
+  }
   var hearts = [];
   window.requestAnimationFrame = (function(){
     return window.requestAnimationFrame ||

@@ -81,6 +81,7 @@
 </static-query>
 
 <script>
+
 export default {
   name: 'Layout',
   data () {
