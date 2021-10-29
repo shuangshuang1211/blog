@@ -4,7 +4,7 @@
   >
     <!-- :style="`background-image: url(http://113.31.117.233:1337${post.node.cover.url})`" -->
     <div class="img-container">
-      <g-image :src="'http://113.31.117.233:1337' + post.cover.url" class="post-img"></g-image>
+      <g-image :src="post.cover.url" class="post-img"></g-image>
       <g-link class="text-white post-title" :to="'/post/' + post.id">{{ post.title }}</g-link>
     </div>
     <div class="card-action">
