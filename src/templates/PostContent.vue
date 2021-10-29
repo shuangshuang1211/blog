@@ -47,7 +47,8 @@ export default {
   computed: {
     body: function () {
       const md = new MarkdownIt()
-      return md.render(this.$page.post.content || '')
+      // this.$page.post.content ||
+      return md.render('')
     }
   }
 }
