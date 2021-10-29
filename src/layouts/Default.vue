@@ -81,6 +81,7 @@
 </static-query>
 
 <script>
+import { heart } from '../assets/js/heart.js'
 
 export default {
   name: 'Layout',
@@ -131,6 +132,9 @@ export default {
     showMenu () {
       this.menuClass = 'show'
     }
+  },
+  mounted () {
+    heart(window, document);
   }
 }
 </script>

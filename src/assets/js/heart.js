@@ -1,5 +1,5 @@
 //鼠标点击出现爱心特效
-(function(window,document,undefined){
+export function heart(window,document,undefined){
   if (typeof window === 'undefined') {
     global.window = {};
   }
@@ -67,4 +67,4 @@
   function randomColor(){
     return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
   }
-})(window,document);
+};
