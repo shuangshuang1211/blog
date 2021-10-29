@@ -41,7 +41,7 @@ export default {
   name: 'PostContent',
   metaInfo () {
     return {
-      title: this.$page.post.title
+      // title: this.$page.post.title
     }
   },
   computed: {
