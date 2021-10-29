@@ -9,6 +9,9 @@ Icon
 .Spotlight-V100
 .Trashes
 ._*
+strapi-blog-backend
+gridsome-blog-frontend
+dist
 
 
 ############################
