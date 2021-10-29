@@ -14,7 +14,7 @@
       </div>
     </header>
     <div class="">
-      <div class="title post-content"><h1 >{{ $page.post.title }}</h1></div>
+      <div class="title post-content"><h1 >title</h1></div>
       <div class="content-box" v-html="this.body" >
     </div>
     </div>
