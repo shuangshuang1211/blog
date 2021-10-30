@@ -32,7 +32,7 @@ export default {
   name: 'About',
   components: {
     Header
-  }
+  },
 }
 </script>
 

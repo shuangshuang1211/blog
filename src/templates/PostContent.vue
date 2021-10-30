@@ -14,7 +14,7 @@
       </div>
     </header>
     <div class="">
-      <div class="title post-content"><h1 >title</h1></div>
+      <div class="title post-content"><h1 >{{ this.$page.post.title }}</h1></div>
       <div class="content-box" v-html="this.body" >
     </div>
     </div>
@@ -48,7 +48,7 @@ export default {
     body: function () {
       const md = new MarkdownIt()
       // this.$page.post.content ||
-      return md.render('')
+      return md.render(this.$page.post.content || '')
     }
   }
 }

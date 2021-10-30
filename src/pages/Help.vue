@@ -66,6 +66,7 @@
 
 <script>
 // import Header from '../components/Header'
+// import { heart } from '../assets/js/heart.js'
 
 export default {
   metaInfo: {
@@ -74,7 +75,7 @@ export default {
   name: 'Help',
   components: {
     // Header
-  }
+  },
 }
 </script>
 
