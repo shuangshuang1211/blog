@@ -81,7 +81,7 @@
 </static-query>
 
 <script>
-import { heart } from '../assets/js/heart.js'
+// import { heart } from '../assets/js/heart.js'
 
 export default {
   name: 'Layout',
@@ -134,7 +134,7 @@ export default {
     }
   },
   mounted () {
-    heart(window, document);
+    // heart(window, document);
   }
 }
 </script>

@@ -24,7 +24,7 @@ module.exports = {
     }
   ],
   templates: {
-    Post: [
+    StrapiPost: [
       {
         path: '/post/:id',
         component: './src/templates/PostContent.vue'

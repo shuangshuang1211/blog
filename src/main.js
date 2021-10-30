@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.css'
 
 import './assets/css/index.css'
 import './assets/css/styles.css'
-import { heart } from './assets/js/heart.js'
+import './assets/js/heart.js'
 
 import dayjs from 'dayjs'
 
@@ -19,7 +19,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin({
     data () {
       return {
-        heart
+        // heart
       }
     }
   })

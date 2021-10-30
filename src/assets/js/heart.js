@@ -1,8 +1,8 @@
 //鼠标点击出现爱心特效
 export function heart(window,document,undefined){
-  if (typeof window === 'undefined') {
-    global.window = {};
-  }
+  // if (typeof window === 'undefined') {
+  //   global.window = {};
+  // }
   var hearts = [];
   window.requestAnimationFrame = (function(){
     return window.requestAnimationFrame ||
@@ -68,3 +68,10 @@ export function heart(window,document,undefined){
     return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
   }
 };
+
+try {
+  heart(window, document)
+} catch (err) {
+  global.window = {}
+  console.error('error', err)
+}

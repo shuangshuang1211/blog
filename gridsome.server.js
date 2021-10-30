@@ -10,7 +10,7 @@ const axios = require('axios')
 module.exports = function (api) {
   api.loadSource(async actions => {
     // const collection = actions.addCollection('Post')
-    // const tags = addCollection('Tag')
+    // const tags = actions.addCollection('Tag')
 
     // const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
 
