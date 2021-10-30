@@ -9,19 +9,19 @@ const axios = require('axios')
 
 module.exports = function (api) {
   api.loadSource(async actions => {
-    const collection = actions.addCollection('Post')
+    // const collection = actions.addCollection('Post')
     // const tags = addCollection('Tag')
 
-    const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    // const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
 
-    for (const item of data) {
-      collection.addNode({
-        id: item.id,
-        title: item.title,
-        content: item.body,
-        userId: item.userId
-      })
-    }
+    // for (const item of data) {
+    //   collection.addNode({
+    //     id: item.id,
+    //     title: item.title,
+    //     content: item.body,
+    //     userId: item.userId
+    //   })
+    // }
   })
 
   api.createPages(({ createPage }) => {
