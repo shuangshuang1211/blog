@@ -69,9 +69,11 @@ export function heart(window,document,undefined){
   }
 };
 
-try {
-  heart(window, document)
-} catch (err) {
-  global.window = {}
-  console.error('error', err)
-}
+// export const tryHeart = () => {
+//   try {
+//     heart(window, document)
+//   } catch (err) {
+//     global.window = {}
+//     console.error('error', err)
+//   }
+// }
